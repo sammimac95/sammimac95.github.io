@@ -1,0 +1,87 @@
+body {
+    background-color: gray;
+}
+
+.main-content {
+    display: flex;
+
+}
+
+.sub-content {
+    position: absolute;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#temp-display {
+    font-size: 48px;
+}
+
+#thermo-pic {
+    position: absolute;
+    max-width: 20%;
+}
+
+.temp-buttons {
+    display: flex;
+    gap: 100px;
+}
+
+#hot-button,
+#cold-button {
+    min-height: 100px;
+    min-width: 100px;
+}
+
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.meter {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    width: 300px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.dot {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    top: 335px;
+    left: 256px;
+    position: absolute;
+}
+
+.fifty {
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    top: 170px;
+    left: 340px;
+    position: absolute;
+}
+
+#reset-button {
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+}
+
+#evaluate-answer {
+    font-size: 48px;
+    font-weight: bold;
+}
