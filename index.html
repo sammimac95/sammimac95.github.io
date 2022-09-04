@@ -15,12 +15,24 @@
             <meter class="meter" id="meter" min="-10" max="110" value="0"></meter>
             <span class="dot"></span>
         </div>
+        <div class="twenty-five">
+            <p>-</p>
+            <p>25</p>
+        </div>
         <div class="fifty">
             <p>-</p>
             <p>50</p>
         </div>
+        <div class="seventy-five">
+            <p>-</p>
+            <p>75</p>
+        </div>
+
         <div class="sub-content">
-            <h1 id="temp-display">Tempature is: </h1>
+            <div class="display">
+                <h1 id="temp-display">Tempature is:</h1>
+                <h1 id="temp-number"></h1>
+            </div>
             <div class="temp-buttons">
                 <button id="hot-button">Hot</button>
                 <button id="cold-button">Cold</button>
@@ -29,6 +41,8 @@
             <h2 id="evaluate-answer"></h2>
         </div>
     </div>
+    <audio id="correct-sound" src="media/correct.mp3"></audio>
+    <audio id="incorrect-sound" src="media/incorrect.mp3"></audio>
     <script src="script.js"></script>
 </body>
 
