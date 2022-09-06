@@ -22,14 +22,14 @@ resetButton.addEventListener("click", function () {
 })
 
 hotButton.addEventListener("click", function () {
-    if ((tempNumber.value) >= 50) {
+    if ((tempNumber.value) >= 60) {
         evaluate.innerText = "Correct!"
         document.getElementById("evaluate-answer").style.backgroundColor = "green";
         document.getElementById("evaluate-answer").style.padding = '30px';
         playCorrect();
 
     }
-    if ((tempNumber.value) < 50) {
+    if ((tempNumber.value) < 60) {
         evaluate.innerText = "Incorrect!"
         document.getElementById("evaluate-answer").style.backgroundColor = "red";
         document.getElementById("evaluate-answer").style.padding = '30px';
@@ -39,7 +39,7 @@ hotButton.addEventListener("click", function () {
 })
 
 coldButton.addEventListener("click", function () {
-    if ((tempNumber.value) < 50) {
+    if ((tempNumber.value) < 60) {
         evaluate.innerText = "Correct!"
         document.getElementById("evaluate-answer").style.backgroundColor = "green";
         document.getElementById("evaluate-answer").style.padding = '30px';
@@ -47,7 +47,7 @@ coldButton.addEventListener("click", function () {
 
 
     }
-    if ((tempNumber.value) >= 50) {
+    if ((tempNumber.value) >= 60) {
         evaluate.innerText = "Incorrect!"
         document.getElementById("evaluate-answer").style.backgroundColor = "red";
         document.getElementById("evaluate-answer").style.padding = '30px';
