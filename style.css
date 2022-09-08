@@ -93,10 +93,16 @@ button {
     margin-left: 150px;
 }
 
+meter::-webkit-meter-optimum-value {
+    background-color: forestgreen;
+    transition: 1s;
+}
+
+
 .dot {
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: forestgreen;
     border-radius: 50%;
     top: 335px;
     left: 256px;
