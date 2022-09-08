@@ -88,6 +88,5 @@ function newNumber() {
 
 function calculateScorePercentage() {
     let percentage = Math.round((numCorrect / totalAnswered) * 100);
-    // Math.round(percentage, 2
     scorePercentageDisplay.innerHTML = percentage + "%";
 }
